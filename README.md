@@ -22,7 +22,7 @@ pod 'SHDB'
 
 ## Author
 
-hfzdeyx@163.com, fangzheng@guanghe.tv
+By BoySimonHu
 
 ## License
 

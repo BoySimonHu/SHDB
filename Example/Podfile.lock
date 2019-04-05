@@ -1,0 +1,39 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - FMDB/standard (2.7.5)
+  - MJExtension (3.0.16)
+  - SHDB (0.1.0):
+    - FMDB
+    - FMDB/SQLCipher
+    - MJExtension
+  - SQLCipher (4.1.0):
+    - SQLCipher/standard (= 4.1.0)
+  - SQLCipher/common (4.1.0)
+  - SQLCipher/standard (4.1.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - SHDB (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - MJExtension
+    - SQLCipher
+
+EXTERNAL SOURCES:
+  SHDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  SHDB: 99e1ce12c66e8f1cfd9484ec77a555282d57c100
+  SQLCipher: efbdb52cdbe340bcd892b1b14297df4e07241b7f
+
+PODFILE CHECKSUM: f4ea3a616f3d1955326d24fd21d7c05b84246cc5
+
+COCOAPODS: 1.6.0.beta.2

@@ -21,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7BB76E5822573326007BBEC2 /* DAAppDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB76E5622573325007BBEC2 /* DAAppDataBase.m */; };
+		7BB76E5B22573351007BBEC2 /* DAStatisticsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB76E5A22573351007BBEC2 /* DAStatisticsModel.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9084209930526A8EC610BE5E /* Pods_SHDB_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF812FF478CA1722228C154 /* Pods_SHDB_Tests.framework */; };
 		F146A4753BC536EBA0FD06B3 /* Pods_SHDB_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ACA2CA55EB346F659D8EE5 /* Pods_SHDB_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,14 +60,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BB76E5622573325007BBEC2 /* DAAppDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAAppDataBase.m; sourceTree = "<group>"; };
+		7BB76E5722573326007BBEC2 /* DAAppDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAAppDataBase.h; sourceTree = "<group>"; };
+		7BB76E5922573351007BBEC2 /* DAStatisticsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAStatisticsModel.h; sourceTree = "<group>"; };
+		7BB76E5A22573351007BBEC2 /* DAStatisticsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAStatisticsModel.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF812FF478CA1722228C154 /* Pods_SHDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A46256BF50DA8D1A1A45FC0F /* Pods-SHDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHDB_Tests.release.xcconfig"; path = "Target Support Files/Pods-SHDB_Tests/Pods-SHDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A81EBBD68924F2D13B0A236D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BB8E707D1DB2DAC6B1770350 /* SHDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SHDB.podspec; path = ../SHDB.podspec; sourceTree = "<group>"; };
+		A81EBBD68924F2D13B0A236D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BB8E707D1DB2DAC6B1770350 /* SHDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHDB.podspec; path = ../SHDB.podspec; sourceTree = "<group>"; };
 		C0D28A8797675DC0EAB44B6F /* Pods-SHDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHDB_Example.debug.xcconfig"; path = "Target Support Files/Pods-SHDB_Example/Pods-SHDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD2F5D29B22D0B4024FDBF26 /* Pods-SHDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHDB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SHDB_Tests/Pods-SHDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EEC48B17174F4B0039979E84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EEC48B17174F4B0039979E84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +91,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9084209930526A8EC610BE5E /* Pods_SHDB_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +134,10 @@
 		6003F593195388D20070C39A /* Example for SHDB */ = {
 			isa = PBXGroup;
 			children = (
+				7BB76E5722573326007BBEC2 /* DAAppDataBase.h */,
+				7BB76E5622573325007BBEC2 /* DAAppDataBase.m */,
+				7BB76E5922573351007BBEC2 /* DAStatisticsModel.h */,
+				7BB76E5A22573351007BBEC2 /* DAStatisticsModel.m */,
 				6003F59C195388D20070C39A /* SHAppDelegate.h */,
 				6003F59D195388D20070C39A /* SHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -190,10 +196,7 @@
 			children = (
 				C0D28A8797675DC0EAB44B6F /* Pods-SHDB_Example.debug.xcconfig */,
 				06F9CE5E656E7A37F8EC3609 /* Pods-SHDB_Example.release.xcconfig */,
-				DD2F5D29B22D0B4024FDBF26 /* Pods-SHDB_Tests.debug.xcconfig */,
-				A46256BF50DA8D1A1A45FC0F /* Pods-SHDB_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,7 +226,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SHDB_Tests" */;
 			buildPhases = (
-				78853768CE592F6EF844834F /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -295,28 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		78853768CE592F6EF844834F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SHDB_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D1ABD024D0BFA4DD1621FF40 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,13 +306,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SHDB_Example/Pods-SHDB_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/SHDB/SHDB.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,8 +355,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SHAppDelegate.m in Sources */,
+				7BB76E5822573326007BBEC2 /* DAAppDataBase.m in Sources */,
 				6003F5A7195388D20070C39A /* SHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7BB76E5B22573351007BBEC2 /* DAStatisticsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +513,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD2F5D29B22D0B4024FDBF26 /* Pods-SHDB_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -549,7 +536,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A46256BF50DA8D1A1A45FC0F /* Pods-SHDB_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
