@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BoySimonHu' => 'hfzdeyx@163.com' }
-  s.source           = { :git => 'https://github.com/hfzdeyx@163.com/SHDB.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BoySimonHu/SHDB.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
